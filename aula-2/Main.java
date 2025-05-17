@@ -16,12 +16,27 @@ public class Main
 {
 	public static void main(String[] args) {
 	    
+	    /******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
 	    
 	    
 	    double hamburguer = 7.50;
 	    int refri = 4;
 	    double batatas = 10.25;
-	    float nuggets = 11.25;
+	    float nuggets = 14;
 	    
 	    System.out.println("O que você quer pedir?");
 		Scanner entrada = new Scanner(System.in);
@@ -32,9 +47,11 @@ public class Main
 		String quantidade = entrada.next();
 		int total = (3);
 		
-		
-		
-		
+		System.out.println("Quanto dinheiro você tem?");
+		Scanner dinheiro = new Scanner(System.in);
+		String reais = entrada.next();
+		double ValorTotal = (55.50);
+	
 			}
 }
 
