@@ -1,4 +1,4 @@
-public class Main
+epublic class Main
 {
 	public static void main(String[] args) {
         // Escreva seu código aqui ⬇️
