@@ -3,7 +3,7 @@ public class Main
 	public static void main(String[] args) {
         // Escreva seu código aqui ⬇️
 		import java.util.Scanner;
-                public class Main
+public class Main
 {
 	public static void main(String[] args) {
 	    
@@ -40,16 +40,24 @@ public class Main
             
             }
             
+             System.out.println("     0 | 1 | 2");
             for(int i = 0; i < lin; i++) {
+                
+                 System.out.print(i + "  | ");
             for(int j = 0; j < col; j++) {
-                System.out.print(matriz2 [i][j] + " ");
+                System.out.print(matriz2 [i][j] + "  ");
             }
-               System.out.println("");
+               System.out.println("|");
             }
+            
+            
+              System.out.print("Esse é o valor do meio " + matriz2 [1][1] );
             
 		    
 		    
 	}
+}
+
 }
 
 	}
