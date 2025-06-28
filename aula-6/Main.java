@@ -17,13 +17,18 @@ public class Main
 	    int tamanho = nome.length();
 	    System.out.println("Olá, "+ nome + ", seu nome tem "+ tamanho +" caracteres");
 	    
-	    System.out.println();
+	    String PalavraSecreta = "batata";
+	    System.out.println("Digite a palavra secreta: ");
+        String palavra = scan.nextLine();
+  
+        if (palavra.equals(PalavraSecreta)) {
+            System.out.println("Parabéns, você acertou!");
+       } else {
+            System.out.println("Que pena, você errou!");
+        }
 	    
-	    
-	    }
+	 }
 }
 
 
-		
-	}
-}
+  
