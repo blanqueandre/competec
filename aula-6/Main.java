@@ -2,6 +2,28 @@ public class Main
 {
 	public static void main(String[] args) {
         // Escreva seu código aqui ⬇️
-		System.out.println("Hello World");
+		
+		import java.util.Scanner;
+public class Main
+{
+	    public static void main(String[] args) {
+	        
+	    System.out.println("nome");
+	    Scanner scan = new Scanner(System.in);
+	    String nome = scan.nextLine();    
+	    	    	    	         
+	    	    	    	         
+	    System.out.println(nome); 
+	    int tamanho = nome.length();
+	    System.out.println("Olá, "+ nome + ", seu nome tem "+ tamanho +" caracteres");
+	    
+	    System.out.println();
+	    
+	    
+	    }
+}
+
+
+		
 	}
 }
