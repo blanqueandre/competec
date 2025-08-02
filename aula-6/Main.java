@@ -26,7 +26,40 @@ public class Main
        } else {
             System.out.println("Que pena, você errou!");
         }
-	    
+
+
+
+
+
+
+		    
+		    public class Main
+{
+	public static void main(String[] args) {
+	
+		
+		String produtos [] = {"arroz","batata","carne"};
+		
+		double preco [] = {5,3.50,10.25};
+		
+		int quantidade [] = {20,50,15};
+		
+		
+			for (int i = 0; i < 3; i ++){ 
+		    	System.out.println(produtos[i]);
+		    	System.out.println(preco[i] * quantidade[i]);
+		    	
+		    	valoresTotais[i] = (preco[i] * quantidade[i]);
+		    	
+		    	
+		}
+		
+		    }
+		
+	}
+}
+
+
 	 }
 }
 
